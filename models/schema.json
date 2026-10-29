@@ -1,0 +1,102 @@
+{
+  "columns": [
+    "gender",
+    "SeniorCitizen",
+    "Partner",
+    "Dependents",
+    "tenure",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_values": {
+    "gender": [
+      "Male",
+      "Female"
+    ],
+    "Partner": [
+      "No",
+      "Yes"
+    ],
+    "Dependents": [
+      "No",
+      "Yes"
+    ],
+    "PhoneService": [
+      "No",
+      "Yes"
+    ],
+    "MultipleLines": [
+      "No phone service",
+      "No",
+      "Yes"
+    ],
+    "InternetService": [
+      "DSL",
+      "Fiber optic",
+      "No"
+    ],
+    "OnlineSecurity": [
+      "No",
+      "Yes",
+      "No internet service"
+    ],
+    "OnlineBackup": [
+      "No",
+      "Yes",
+      "No internet service"
+    ],
+    "DeviceProtection": [
+      "Yes",
+      "No",
+      "No internet service"
+    ],
+    "TechSupport": [
+      "No",
+      "Yes",
+      "No internet service"
+    ],
+    "StreamingTV": [
+      "Yes",
+      "No",
+      "No internet service"
+    ],
+    "StreamingMovies": [
+      "Yes",
+      "No",
+      "No internet service"
+    ],
+    "Contract": [
+      "Month-to-month",
+      "Two year",
+      "One year"
+    ],
+    "PaperlessBilling": [
+      "No",
+      "Yes"
+    ],
+    "PaymentMethod": [
+      "Electronic check",
+      "Mailed check",
+      "Credit card (automatic)",
+      "Bank transfer (automatic)"
+    ]
+  },
+  "numeric_defaults": {
+    "SeniorCitizen": 0.0,
+    "tenure": 29.0,
+    "MonthlyCharges": 70.5,
+    "TotalCharges": 1398.125
+  }
+}
