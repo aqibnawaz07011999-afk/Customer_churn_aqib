@@ -1,6 +1,4 @@
-# Customer Churn Prediction — Full ML Project
-
-Based on the provided two-page AI Student Practical Assignment PDF.
+# Customer Churn Prediction — ML Project
 
 ## Setup
 
@@ -12,8 +10,6 @@ pip install -r requirements.txt
 ```
 
 ## Dataset
-
-Download the public **IBM Telco Customer Churn** CSV (often named `WA_Fn-UseC_-Telco-Customer-Churn.csv`) and save it as `data/Telco-Customer-Churn.csv`.
 
 Source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
